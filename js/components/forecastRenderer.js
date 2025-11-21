@@ -33,7 +33,7 @@ export function renderForecast(data) {
     forecastMetricElem2.textContent = `${data.ci_95[0].toLocaleString()} - ${data.ci_95[1].toLocaleString()}`;
 
     const ciItem = document.getElementById("ciItem");
-    ciItem.innerHTML = `<strong>CI 68% & 95%:</strong> The range within which the true price is expected to fall with 68% and 95% confidence, respectively.`;
+    ciItem.innerHTML = `<strong>CI 68% & 95%:</strong> The ranges where the true price is likely to fall—fairly likely for 68%, very likely for 95%.`;
 
     const forecastedClosingPriceElem = document.getElementById(
       "model-metric__ForecastedClosingPrice"

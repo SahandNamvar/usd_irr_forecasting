@@ -23,7 +23,7 @@ export function renderLSTMResults(data) {
       maximumFractionDigits: 2,
     }) + "%";
   const mapeItem = document.getElementById("mapeItem");
-  mapeItem.innerHTML = `<strong>MAPE:</strong> Typically within about ${data.test_metrics.MAPE_percent.toLocaleString(
+  mapeItem.innerHTML = `<strong>MAPE:</strong> Prediction is typically within ${data.test_metrics.MAPE_percent.toLocaleString(
     undefined,
     { minimumFractionDigits: 2, maximumFractionDigits: 2 }
   )}% of actual value`;

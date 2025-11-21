@@ -24,16 +24,16 @@
       <!-- Top Hero Section -->
       <header class="hero">
         <div class="hero__inner">
-          <h1 class="hero__title">Live USD–IRR Exchange Rates</h1>
-          <h2 class="hero__tagline">AI-Powered Forecasting</h2>
+          <h1 class="hero__title">Live USD–IRR Exchange Rates +</h1>
+          <h2 class="hero__tagline">AI-Powered Next-Day Forecasting</h2>
           <p class="hero__subtitle">
-            Historical and real-time USD-IRR exchange rates (2011–Present) &
-            daily forecasts powered by Deep Learning.
+            Track 14+ years of USD–IRR data with daily AI-based next-day
+            predictions & trends
           </p>
 
           <section class="hero__stats" aria-label="Dataset summary">
             <article class="stat-card">
-              <p class="stat-card__label">Total Records</p>
+              <p class="stat-card__label">Total Records (Live Data)</p>
               <p id="stat-total-records" class="stat-card__value">—</p>
             </article>
 
@@ -58,7 +58,7 @@
             </article>
 
             <article class="stat-card">
-              <p class="stat-card__label">Change Amount (Yesterday)</p>
+              <p class="stat-card__label">Change (since yesterday)</p>
               <p id="stat-change-amount" class="stat-card__value">
                 <span class="arrow-icon">•</span>
                 <span class="value-text">—</span>
@@ -66,7 +66,7 @@
             </article>
 
             <article class="stat-card">
-              <p class="stat-card__label">Change Percent (Yesterday)</p>
+              <p class="stat-card__label">Change % (since yesterday)</p>
               <p id="stat-change-percent" class="stat-card__value">
                 <span class="arrow-icon">•</span>
                 <span class="value-text">—</span>
@@ -74,7 +74,7 @@
             </article>
 
             <article class="stat-card golden-card">
-              <p class="stat-card__label">Tomorrow's Forecast (Rial)</p>
+              <p class="stat-card__label">Next-Day Forecast (Rial)</p>
               <p id="stat-tomorrow-forecast" class="stat-card__value">
                 <span class="arrow-icon">•</span>
                 <span class="value-text">—</span>
@@ -123,7 +123,7 @@
 
           <div class="model-grid">
             <div class="model-metric golden-card">
-              <span class="metric-label">Forecasted Closing Price</span>
+              <span class="metric-label">Next-Day Forecast (Rial)</span>
               <span
                 id="model-metric__ForecastedClosingPrice"
                 class="metric-value"
@@ -132,12 +132,12 @@
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">MAE</span>
+              <span class="metric-label">MAE (Rial)</span>
               <span id="model-metric__MAE" class="metric-value">—</span>
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">RMSE</span>
+              <span class="metric-label">RMSE (Rial)</span>
               <span id="model-metric__RMSE" class="metric-value">—</span>
             </div>
 
@@ -147,24 +147,24 @@
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">Mean Residual</span>
+              <span class="metric-label">Mean Residual (Rial)</span>
               <span id="model-metric__MeanResidual" class="metric-value"
                 >—</span
               >
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">Residual Std</span>
+              <span class="metric-label">Residual Std (Rial)</span>
               <span id="model-metric__ResidualStd" class="metric-value">—</span>
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">CI 68%</span>
+              <span class="metric-label">CI 68% (Rial)</span>
               <span id="model-metric__CI68" class="metric-value">—</span>
             </div>
 
             <div class="model-metric">
-              <span class="metric-label">CI 95%</span>
+              <span class="metric-label">CI 95% (Rial)</span>
               <span id="model-metric__CI95" class="metric-value">—</span>
             </div>
           </div>
@@ -172,7 +172,7 @@
 
         <!-- Recent Exchange Rates Table -->
         <section class="table-section">
-          <h2>Most Recent Rates</h2>
+          <h2>Most Recent Rates (USD to IRR)</h2>
 
           <div class="table-container">
             <table id="recent-rates-table">
@@ -196,11 +196,11 @@
         <!-- About / Access / Tech Details Section -->
         <section class="dataset-info">
           <div class="info-card">
-            <h3>About the Dataset & Platform</h3>
+            <h3>About the Data Source</h3>
             <p>
-              This platform provides comprehensive historical & real-time USD to
-              Iranian Rial (IRR) exchange rate data, along with next-day
-              forecasts generated by machine-learning.
+              This dataset contains comprehensive historical exchange rates for
+              the USD to IRR (Rial), updated and preprocessed daily to ensure
+              accuracy.
             </p>
             <ul>
               <li>
@@ -216,11 +216,17 @@
               </li>
               <li><strong>Currency Pair:</strong> USD / IRR (Rial)</li>
               <li>
-                <strong>Disclaimer:</strong> Educational prototype — not
-                financial advice
+                <strong>Use Case:</strong> Aid in financial planning and
+                analysis
               </li>
             </ul>
-            <a class="btn-outline" href="#" download>Download Dataset (CSV)</a>
+            <a
+              class="btn-outline"
+              href="https://github.com/SahandNamvar/usd_irr_forecasting/blob/main/backend/db/Dollar_Rial_Price_Dataset.csv"
+              target="_blank"
+              download
+              >Download Dataset (CSV)</a
+            >
           </div>
 
           <div class="info-card center-card">
@@ -231,7 +237,8 @@
             </p>
             <ul>
               <li>
-                <strong>Training Data:</strong> 14+ years of historical rates
+                <strong>Training Data:</strong> 14+ years of daily historical
+                rates
               </li>
               <li><strong>Input Window:</strong> Prior 90 days of pricing</li>
               <li>
@@ -243,12 +250,8 @@
                 external factors
               </li>
               <li>
-                <strong>Use Case:</strong> Aid in financial planning and
-                analysis
-              </li>
-              <li>
-                <strong>Development:</strong> Ongoing improvements to model
-                performance
+                <strong>Development:</strong> Built with Python, TensorFlow, and
+                deployed via GitHub Actions
               </li>
             </ul>
           </div>
