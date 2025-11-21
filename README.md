@@ -220,7 +220,3 @@ Source: https://github.com/kooroshkz/Dollar-Rial-Toman-Live-Price-Dataset
 Data Source: TGJU.org (Tehran Gold & Jewelry Union)
 
 Date Range: November 2011 - Present
-
-```
-
-```
