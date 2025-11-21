@@ -1,0 +1,11 @@
+{
+    "test_metrics": {
+        "RMSE": 33043.130427051045,
+        "MAE": 23312.122417355346,
+        "MAPE_percent": 2.6315821791495155
+    },
+    "residual_summary": {
+        "mean_residual": 13783.33832644623,
+        "residual_std": 30031.118077717736
+    }
+}
