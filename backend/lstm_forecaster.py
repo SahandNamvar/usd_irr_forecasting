@@ -13,7 +13,7 @@ from pathlib import Path
 
 DATASET = Path(__file__).parent / "db" / "Dollar_Rial_Price_Dataset.csv"
 MODEL_DIR = Path(__file__).parent / "model"
-EXPORT_PATH = MODEL_DIR.parent.parent  / "docs" / "frontend" / "data" / "forecast_data.json"
+EXPORT_PATH = MODEL_DIR.parent.parent  / "data" / "forecast_data.json"
 
 def forecast_next_day():
     from keras.models import load_model

@@ -4,7 +4,9 @@ import { populateRecentRatesTable } from "../components/tableRenderer.js";
 
 export async function fetchExchangeData() {
   try {
-    const response = await fetch("/docs/frontend/data/exchange_data.json");
+    const response = await fetch(
+      new URL("../../data/exchange_data.json", import.meta.url)
+    );
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
