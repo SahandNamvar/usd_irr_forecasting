@@ -89,7 +89,7 @@ if __name__ == "__main__":
     print(f"Processed {exchange_data['meta']['total_records']} records successfully.")
 
     # Export JSON to frontend/data
-    export_folder = Path(__file__).parent.parent / "frontend" / "data"
+    export_folder = Path(__file__).parent.parent / "docs" / "frontend" / "data"
     export_folder.mkdir(parents=True, exist_ok=True)
     export_path = export_folder / "exchange_data.json"
 
