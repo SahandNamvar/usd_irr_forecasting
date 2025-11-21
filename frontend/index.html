@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      AI-Powered USD to IRR Exchange Rate Forecasting System (Dollar-Rial)
+    </title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Top Hero Section -->
+      <header class="hero">
+        <div class="hero__inner">
+          <h1 class="hero__title">Live USD–IRR Exchange Rates</h1>
+          <h2 class="hero__tagline">AI-Powered Forecasting</h2>
+          <p class="hero__subtitle">
+            Historical and real-time USD-IRR exchange rates (2011–Present) &
+            daily forecasts powered by Deep Learning.
+          </p>
+
+          <section class="hero__stats" aria-label="Dataset summary">
+            <article class="stat-card">
+              <p class="stat-card__label">Total Records</p>
+              <p id="stat-total-records" class="stat-card__value">—</p>
+            </article>
+
+            <article class="stat-card">
+              <p class="stat-card__label">Last Update</p>
+              <p id="stat-last-updated" class="stat-card__value">—</p>
+            </article>
+
+            <article class="stat-card">
+              <p class="stat-card__label">Data Range</p>
+              <p id="stat-data-range" class="stat-card__value">—</p>
+            </article>
+
+            <article class="stat-card">
+              <p class="stat-card__label">Lowest Price (Rial)</p>
+              <p id="stat-lowest-price" class="stat-card__value">—</p>
+            </article>
+
+            <article class="stat-card green-card">
+              <p class="stat-card__label">Latest Close Price (Rial)</p>
+              <p id="stat-close-price" class="stat-card__value">—</p>
+            </article>
+
+            <article class="stat-card">
+              <p class="stat-card__label">Change Amount (Yesterday)</p>
+              <p id="stat-change-amount" class="stat-card__value">
+                <span class="arrow-icon">•</span>
+                <span class="value-text">—</span>
+              </p>
+            </article>
+
+            <article class="stat-card">
+              <p class="stat-card__label">Change Percent (Yesterday)</p>
+              <p id="stat-change-percent" class="stat-card__value">
+                <span class="arrow-icon">•</span>
+                <span class="value-text">—</span>
+              </p>
+            </article>
+
+            <article class="stat-card golden-card">
+              <p class="stat-card__label">Tomorrow's Forecast (Rial)</p>
+              <p id="stat-tomorrow-forecast" class="stat-card__value">
+                <span class="arrow-icon">•</span>
+                <span class="value-text">—</span>
+              </p>
+            </article>
+          </section>
+        </div>
+      </header>
+
+      <!-- Interactive Chart Section -->
+      <main class="content">
+        <section class="chart-section">
+          <div class="chart-section__header">
+            <h2>Historical USD–IRR Exchange Rates (Interactive)</h2>
+
+            <div
+              class="chart-section__controls"
+              role="tablist"
+              aria-label="Chart type"
+            >
+              <button
+                class="chart-toggle chart-toggle--active"
+                type="button"
+                data-chart="candlestick"
+              >
+                Candlestick
+              </button>
+              <button class="chart-toggle" type="button" data-chart="line">
+                Line Chart
+              </button>
+              <button class="chart-toggle" type="button" data-chart="area">
+                Area Chart
+              </button>
+            </div>
+          </div>
+
+          <!-- Chart container -->
+          <div class="chart-placeholder">
+            <div id="price-chart"></div>
+          </div>
+        </section>
+
+        <!-- Model Performance Section -->
+        <section class="model-performance">
+          <h2>Forecasted Price Metrics</h2>
+
+          <div class="model-grid">
+            <div class="model-metric golden-card">
+              <span class="metric-label">Forecasted Closing Price</span>
+              <span
+                id="model-metric__ForecastedClosingPrice"
+                class="metric-value"
+                >—</span
+              >
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">MAE</span>
+              <span id="model-metric__MAE" class="metric-value">—</span>
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">RMSE</span>
+              <span id="model-metric__RMSE" class="metric-value">—</span>
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">MAPE (%)</span>
+              <span id="model-metric__MAPE" class="metric-value">—</span>
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">Mean Residual</span>
+              <span id="model-metric__MeanResidual" class="metric-value"
+                >—</span
+              >
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">Residual Std</span>
+              <span id="model-metric__ResidualStd" class="metric-value">—</span>
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">CI 68%</span>
+              <span id="model-metric__CI68" class="metric-value">—</span>
+            </div>
+
+            <div class="model-metric">
+              <span class="metric-label">CI 95%</span>
+              <span id="model-metric__CI95" class="metric-value">—</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recent Exchange Rates Table -->
+        <section class="table-section">
+          <h2>Most Recent Rates</h2>
+
+          <div class="table-container">
+            <table id="recent-rates-table">
+              <thead>
+                <tr>
+                  <th>Date (Gregorian)</th>
+                  <th>Date (Persian)</th>
+                  <th>Opening Price</th>
+                  <th>Lowest Price</th>
+                  <th>Highest Price</th>
+                  <th>Closing Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Rows populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- About / Access / Tech Details Section -->
+        <section class="dataset-info">
+          <div class="info-card">
+            <h3>About the Dataset & Platform</h3>
+            <p>
+              This platform provides comprehensive historical & real-time USD to
+              Iranian Rial (IRR) exchange rate data, along with next-day
+              forecasts generated by machine-learning.
+            </p>
+            <ul>
+              <li>
+                <strong>Data Source:</strong> TGJU.org (Tehran Gold and Jewelry
+                Union)
+              </li>
+              <li>
+                <strong>Update Frequency:</strong> Daily via GitHub Actions
+              </li>
+              <li>
+                <strong>Forecasting Model:</strong> LSTM (Long Short-Term
+                Memory)
+              </li>
+              <li><strong>Currency Pair:</strong> USD / IRR (Rial)</li>
+              <li>
+                <strong>Disclaimer:</strong> Educational prototype — not
+                financial advice
+              </li>
+            </ul>
+            <a class="btn-outline" href="#" download>Download Dataset (CSV)</a>
+          </div>
+
+          <div class="info-card center-card">
+            <h3>About the AI Model</h3>
+            <p>
+              The forecasting engine uses a Long Short-Term Memory (LSTM) neural
+              network trained mainly for financial time-series prediction.
+            </p>
+            <ul>
+              <li>
+                <strong>Training Data:</strong> 14+ years of historical rates
+              </li>
+              <li><strong>Input Window:</strong> Prior 90 days of pricing</li>
+              <li>
+                <strong>Accuracy:</strong> Shown under "Forecasted Price
+                Metrics"
+              </li>
+              <li>
+                <strong>Limitations:</strong> Subject to market volatility and
+                external factors
+              </li>
+              <li>
+                <strong>Use Case:</strong> Aid in financial planning and
+                analysis
+              </li>
+              <li>
+                <strong>Development:</strong> Ongoing improvements to model
+                performance
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3>Forecasting Metrics</h3>
+            <ul>
+              <li id="maeItem"><strong>MAE:</strong> -</li>
+              <li id="mapeItem"><strong>MAPE:</strong> -</li>
+              <li id="ciItem"><strong>CI 68% & 95%:</strong> -</li>
+            </ul>
+            <span id="disclaimer"
+              ><strong>Disclaimer:</strong> Educational prototype — not
+              financial advice</span
+            >
+            <span
+              >For more information, visit the project's GitHub
+              repository.</span
+            >
+
+            <a
+              class="btn-primary"
+              href="https://github.com/SahandNamvar/usd_irr_forecasting"
+              target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>
+          ITCS 6150 (Course Project) - Sahand Namvar - All rights reserved ©
+          2025
+        </p>
+      </footer>
+    </div>
+
+    <!-- Lightweight-Charts CDN -->
+    <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+
+    <!-- JS -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
