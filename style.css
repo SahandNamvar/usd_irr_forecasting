@@ -117,6 +117,8 @@ body {
   border: 1px solid var(--border-subtle);
   position: relative;
   overflow: hidden;
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 5px var(--accent-strong);
 }
 
 .stat-card::before {
@@ -150,8 +152,8 @@ body {
 }
 
 .golden-card {
-  border: 1px solid gold;
-  box-shadow: 0 0 5px gold;
+  border: 1px solid rgb(185, 159, 14);
+  box-shadow: 0 0 5px rgb(185, 159, 14);
 }
 
 .golden-card .stat-card__label {
@@ -159,8 +161,8 @@ body {
 }
 
 .green-card {
-  border: 1px solid #22c55e;
-  box-shadow: 0 0 5px #22c55e;
+  border: 1px solid #1c9e4c;
+  box-shadow: 0 0 5px #1c9e4c;
 }
 
 .green-card .stat-card__label {
@@ -559,9 +561,10 @@ body {
 .model-metric {
   padding: 1rem 1.2rem;
   background: linear-gradient(145deg, var(--bg-card), var(--bg-card-alt));
-  border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 5px var(--accent-strong);
 }
 
 .metric-label {
@@ -580,8 +583,8 @@ body {
 }
 
 .model-performance .golden-card {
-  border: 1px solid gold;
-  box-shadow: 0 0 5px gold;
+  border: 1px solid rgb(185, 159, 14);
+  box-shadow: 0 0 5px rgb(185, 159, 14);
 }
 
 .model-performance .golden-card .metric-label {
