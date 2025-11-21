@@ -1,0 +1,17 @@
+# Ensure Python 3.10.xx enviroment is active (to avoid tensorflow compatibility issues)
+tensorflow==2.20.0
+keras==3.12.0
+numpy==2.2.6
+pandas==2.3.3
+python-dotenv==1.2.1
+
+# TensorFlow essential dependencies
+h5py==3.15.1
+protobuf==6.33.0
+tensorboard==2.20.0
+
+# Notebook / Data Science tools
+scikit-learn==1.7.2
+matplotlib==3.10.7
+seaborn==0.13.2
+kaggle==1.7.4.5
