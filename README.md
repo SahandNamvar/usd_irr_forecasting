@@ -56,6 +56,7 @@ If you want the dataset to download automatically:
 
 1. Obtain Kaggle API token → [Kaggle Public API Documentation](https://www.kaggle.com/docs/api)
 2. In `backend/`, create a `.env` file with:
+
    ```
    KAGGLE_USERNAME=your_kaggle_username
    KAGGLE_KEY=your_kaggle_key
@@ -128,7 +129,7 @@ _Or use the VSCode **Live Server extension**_
 
 ---
 
-### Technical Commentary
+### Commentary (Notes)
 
 Working with financial time series introduces many challenges such as **non-stationarity, volatility clustering, unpredictable shocks, and market anomalies**. For this project, another major difficulty was sourcing reliable **USD to IRR** historical data. Iranian currency data is notoriously hard to obtain, and even major platforms (including Google) still show outdated 2018 values.
 
@@ -172,7 +173,11 @@ More than a simple course assignment, this project was an opportunity to combine
 ### Citation
 
 Dollar-Rial-Toman Live Price Dataset
+
 Author: Koorosh Komeili Zadeh
+
 Source: https://github.com/kooroshkz/Dollar-Rial-Toman-Live-Price-Dataset
+
 Data Source: TGJU.org (Tehran Gold & Jewelry Union)
+
 Date Range: November 2011 - Present
