@@ -20,7 +20,7 @@ def forecast_next_day():
 
     model_path = MODEL_DIR / "best_lstm_model.keras"
     scaler_path = MODEL_DIR / "lstm_scaler.pkl"
-    residuals_path = MODEL_DIR.parent.parent / "frontend" / "data" / "lstm_results.json"
+    residuals_path = MODEL_DIR.parent.parent / "data" / "lstm_results.json"
 
     # Validate essential files exist
     if not model_path.exists() or not scaler_path.exists() or not residuals_path.exists():
