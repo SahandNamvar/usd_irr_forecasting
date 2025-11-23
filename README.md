@@ -11,7 +11,7 @@ The project includes:
 - Automated scripts for **downloading, preprocessing, and forecasting**
 - A static website displaying results and insights
 
-📌 **Project Website:** [USD IRR Forecasting](https://sahandnamvar.github.io/usd_irr_forecasting/)
+📌 **Project Website:** [Live USD–IRR Exchange Rates & Next-Day Forecast](https://sahandnamvar.github.io/usd_irr_forecasting/) - Automated daily updates via GitHub Actions every day at 11:00 UTC.
 
 ---
 
@@ -132,6 +132,22 @@ _Or use the VSCode **Live Server extension**_
 ### Deployment Details
 
 The static website is hosted on **GitHub Pages**. Any changes pushed to the `main` branch will automatically trigger a GitHub Actions workflow that rebuilds and deploys the site.
+
+**Daily Update Pipeline (using GitHub Actions):**
+
+There is also an automated _Daily Update Pipeline_ YAML script (GitHub Actions). The workflow updates the dataset, runs the preprocessor, forecasts tomorrow's price using the LSTM model, and commits the results back to the repository — all on a daily schedule (11 AM UTC).
+
+The GitHub Actions workflow performs the following steps:
+
+1. Checkout the repository
+2. Set up Python 3.10
+3. Install dependencies from `backend/requirements.txt`
+4. Loads Kaggle credentials from GitHub Secrets `KAGGLE_USERNAME` and `KAGGLE_KEY`
+5. Runs the full pipeline:
+   - `dataset_downloader.py`
+   - `dataset_preprocessor.py`
+   - `lstm_forecaster.py`
+6. Commits and pushes all updated datasets, processed files, and forecast results back to the main branch
 
 ---
 
