@@ -12,7 +12,7 @@ KAGGLE_USERNAME = os.getenv("KAGGLE_USERNAME")
 KAGGLE_KEY = os.getenv("KAGGLE_KEY")
 
 if not KAGGLE_USERNAME or not KAGGLE_KEY:
-    print("❌ Missing Kaggle credentials.")
+    print("Missing Kaggle credentials.")
     print("KAGGLE_USERNAME:", KAGGLE_USERNAME)
     print("KAGGLE_KEY:", "SET" if KAGGLE_KEY else "NOT SET")
     sys.exit(1)
