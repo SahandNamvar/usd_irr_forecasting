@@ -106,5 +106,14 @@
             1190050
         ],
         "trend": "down"
+    },
+    {
+        "date": "2025-11-28",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
