@@ -235,5 +235,20 @@
         "ci_68": null,
         "ci_95": null,
         "trend": "stable"
+    },
+    {
+        "date": "2025-12-09",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1198122,
+        "ci_68": [
+            1168091,
+            1228153
+        ],
+        "ci_95": [
+            1139261,
+            1256983
+        ],
+        "trend": "down"
     }
 ]

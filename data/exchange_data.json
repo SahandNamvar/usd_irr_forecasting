@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3723,
-        "last_update": "2025-12-04",
-        "last_close_price": 1197050,
+        "total_records": 3726,
+        "last_update": "2025-12-08",
+        "last_close_price": 1262800,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2025"
         ],
-        "change_amount_yesterday": 7500,
-        "change_percent_yesterday": 0.63
+        "change_amount_yesterday": 22750,
+        "change_percent_yesterday": 1.83
     },
     "charts": {
         "line_area_chart": [
@@ -14904,6 +14904,18 @@
             {
                 "time": "2025-12-04",
                 "value": 1197050
+            },
+            {
+                "time": "2025-12-06",
+                "value": 1219950
+            },
+            {
+                "time": "2025-12-07",
+                "value": 1240050
+            },
+            {
+                "time": "2025-12-08",
+                "value": 1262800
             }
         ],
         "candlestick_chart": [
@@ -40967,11 +40979,56 @@
                 "high": 1206050,
                 "low": 1195150,
                 "close": 1197050
+            },
+            {
+                "time": "2025-12-06",
+                "open": 1197250,
+                "high": 1222050,
+                "low": 1197150,
+                "close": 1219950
+            },
+            {
+                "time": "2025-12-07",
+                "open": 1221250,
+                "high": 1240050,
+                "low": 1221150,
+                "close": 1240050
+            },
+            {
+                "time": "2025-12-08",
+                "open": 1240450,
+                "high": 1263050,
+                "low": 1240150,
+                "close": 1262800
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2025-12-08",
+                "Persian Date": "1404/09/17",
+                "Open Price": 1240450,
+                "Low Price": 1240150,
+                "High Price": 1263050,
+                "Close Price": 1262800
+            },
+            {
+                "Gregorian Date": "2025-12-07",
+                "Persian Date": "1404/09/16",
+                "Open Price": 1221250,
+                "Low Price": 1221150,
+                "High Price": 1240050,
+                "Close Price": 1240050
+            },
+            {
+                "Gregorian Date": "2025-12-06",
+                "Persian Date": "1404/09/15",
+                "Open Price": 1197250,
+                "Low Price": 1197150,
+                "High Price": 1222050,
+                "Close Price": 1219950
+            },
             {
                 "Gregorian Date": "2025-12-04",
                 "Persian Date": "1404/09/13",
@@ -41027,30 +41084,6 @@
                 "Low Price": 1135800,
                 "High Price": 1144200,
                 "Close Price": 1141700
-            },
-            {
-                "Gregorian Date": "2025-11-26",
-                "Persian Date": "1404/09/05",
-                "Open Price": 1134500,
-                "Low Price": 1131800,
-                "High Price": 1139200,
-                "Close Price": 1136400
-            },
-            {
-                "Gregorian Date": "2025-11-25",
-                "Persian Date": "1404/09/04",
-                "Open Price": 1133150,
-                "Low Price": 1127800,
-                "High Price": 1138200,
-                "Close Price": 1134600
-            },
-            {
-                "Gregorian Date": "2025-11-23",
-                "Persian Date": "1404/09/02",
-                "Open Price": 1127350,
-                "Low Price": 1125800,
-                "High Price": 1138200,
-                "Close Price": 1137600
             }
         ]
     }
