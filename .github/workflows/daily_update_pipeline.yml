@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -61,8 +63,8 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "SahandNamvar"
+          git config --global user.email "${{ secrets.GIT_EMAIL }}"
           git add .
           git commit -m "Automated daily update" || echo "No changes to commit"
           git push origin main
