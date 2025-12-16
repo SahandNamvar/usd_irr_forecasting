@@ -343,5 +343,20 @@
             1309685
         ],
         "trend": "down"
+    },
+    {
+        "date": "2025-12-16",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1261712,
+        "ci_68": [
+            1231681,
+            1291743
+        ],
+        "ci_95": [
+            1202851,
+            1320573
+        ],
+        "trend": "down"
     }
 ]

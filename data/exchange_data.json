@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3731,
-        "last_update": "2025-12-14",
-        "last_close_price": 1296900,
+        "total_records": 3732,
+        "last_update": "2025-12-15",
+        "last_close_price": 1303600,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2025"
         ],
-        "change_amount_yesterday": 7000,
-        "change_percent_yesterday": 0.54
+        "change_amount_yesterday": 6700,
+        "change_percent_yesterday": 0.52
     },
     "charts": {
         "line_area_chart": [
@@ -14936,6 +14936,10 @@
             {
                 "time": "2025-12-14",
                 "value": 1296900
+            },
+            {
+                "time": "2025-12-15",
+                "value": 1303600
             }
         ],
         "candlestick_chart": [
@@ -41055,11 +41059,26 @@
                 "high": 1298000,
                 "low": 1275100,
                 "close": 1296900
+            },
+            {
+                "time": "2025-12-15",
+                "open": 1299700,
+                "high": 1317000,
+                "low": 1299700,
+                "close": 1303600
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2025-12-15",
+                "Persian Date": "1404/09/24",
+                "Open Price": 1299700,
+                "Low Price": 1299700,
+                "High Price": 1317000,
+                "Close Price": 1303600
+            },
             {
                 "Gregorian Date": "2025-12-14",
                 "Persian Date": "1404/09/23",
@@ -41131,14 +41150,6 @@
                 "Low Price": 1195150,
                 "High Price": 1206050,
                 "Close Price": 1197050
-            },
-            {
-                "Gregorian Date": "2025-12-03",
-                "Persian Date": "1404/09/12",
-                "Open Price": 1190450,
-                "Low Price": 1190150,
-                "High Price": 1209050,
-                "Close Price": 1204550
             }
         ]
     }
