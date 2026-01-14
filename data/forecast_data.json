@@ -724,5 +724,20 @@
             1483634
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-01-14",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1430266,
+        "ci_68": [
+            1400235,
+            1460297
+        ],
+        "ci_95": [
+            1371405,
+            1489127
+        ],
+        "trend": "down"
     }
 ]
