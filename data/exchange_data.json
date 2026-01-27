@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3766,
-        "last_update": "2026-01-25",
-        "last_close_price": 1421740,
+        "total_records": 3767,
+        "last_update": "2026-01-26",
+        "last_close_price": 1464650,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 11740,
-        "change_percent_yesterday": 0.83
+        "change_amount_yesterday": 42910,
+        "change_percent_yesterday": 3.02
     },
     "charts": {
         "line_area_chart": [
@@ -15076,6 +15076,10 @@
             {
                 "time": "2026-01-25",
                 "value": 1421740
+            },
+            {
+                "time": "2026-01-26",
+                "value": 1464650
             }
         ],
         "candlestick_chart": [
@@ -41440,11 +41444,26 @@
                 "high": 1426200,
                 "low": 1410000,
                 "close": 1421740
+            },
+            {
+                "time": "2026-01-26",
+                "open": 1421640,
+                "high": 1464700,
+                "low": 1400340,
+                "close": 1464650
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-01-26",
+                "Persian Date": "1404/11/06",
+                "Open Price": 1421640,
+                "Low Price": 1400340,
+                "High Price": 1464700,
+                "Close Price": 1464650
+            },
             {
                 "Gregorian Date": "2026-01-25",
                 "Persian Date": "1404/11/05",
@@ -41513,14 +41532,6 @@
                 "Gregorian Date": "2026-01-15",
                 "Persian Date": "1404/10/25",
                 "Open Price": 1455250,
-                "Low Price": 1455000,
-                "High Price": 1455400,
-                "Close Price": 1455100
-            },
-            {
-                "Gregorian Date": "2026-01-14",
-                "Persian Date": "1404/10/24",
-                "Open Price": 1455350,
                 "Low Price": 1455000,
                 "High Price": 1455400,
                 "Close Price": 1455100
