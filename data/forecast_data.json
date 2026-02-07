@@ -1042,5 +1042,14 @@
         "ci_68": null,
         "ci_95": null,
         "trend": "stable"
+    },
+    {
+        "date": "2026-02-06",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
