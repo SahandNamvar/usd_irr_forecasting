@@ -1081,5 +1081,20 @@
             1602070
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-02-10",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1561468,
+        "ci_68": [
+            1531437,
+            1591499
+        ],
+        "ci_95": [
+            1502607,
+            1620329
+        ],
+        "trend": "down"
     }
 ]
