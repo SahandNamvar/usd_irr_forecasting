@@ -1126,5 +1126,14 @@
             1629580
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-02-13",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
