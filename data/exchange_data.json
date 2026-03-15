@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3804,
-        "last_update": "2026-03-12",
+        "total_records": 3805,
+        "last_update": "2026-03-14",
         "last_close_price": 1663600,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 100,
-        "change_percent_yesterday": 0.01
+        "change_amount_yesterday": 0,
+        "change_percent_yesterday": 0.0
     },
     "charts": {
         "line_area_chart": [
@@ -15227,6 +15227,10 @@
             },
             {
                 "time": "2026-03-12",
+                "value": 1663600
+            },
+            {
+                "time": "2026-03-14",
                 "value": 1663600
             }
         ],
@@ -41858,11 +41862,26 @@
                 "high": 1663700,
                 "low": 1663300,
                 "close": 1663600
+            },
+            {
+                "time": "2026-03-14",
+                "open": 1663300,
+                "high": 1663700,
+                "low": 1663300,
+                "close": 1663600
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-03-14",
+                "Persian Date": "1404/12/23",
+                "Open Price": 1663300,
+                "Low Price": 1663300,
+                "High Price": 1663700,
+                "Close Price": 1663600
+            },
             {
                 "Gregorian Date": "2026-03-12",
                 "Persian Date": "1404/12/21",
@@ -41934,14 +41953,6 @@
                 "Low Price": 1663300,
                 "High Price": 1663700,
                 "Close Price": 1663550
-            },
-            {
-                "Gregorian Date": "2026-03-02",
-                "Persian Date": "1404/12/11",
-                "Open Price": 1663450,
-                "Low Price": 1663300,
-                "High Price": 1663700,
-                "Close Price": 1663400
             }
         ]
     }

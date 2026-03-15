@@ -1516,5 +1516,20 @@
         "ci_68": null,
         "ci_95": null,
         "trend": "stable"
+    },
+    {
+        "date": "2026-03-15",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1618240,
+        "ci_68": [
+            1588208,
+            1648271
+        ],
+        "ci_95": [
+            1559379,
+            1677101
+        ],
+        "trend": "down"
     }
 ]
