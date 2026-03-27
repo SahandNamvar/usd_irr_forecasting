@@ -1672,5 +1672,14 @@
             1555471
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-03-27",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
