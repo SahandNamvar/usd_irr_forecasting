@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3823,
-        "last_update": "2026-04-07",
-        "last_close_price": 1605000,
+        "total_records": 3824,
+        "last_update": "2026-04-08",
+        "last_close_price": 1543400,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 35000,
-        "change_percent_yesterday": 2.23
+        "change_amount_yesterday": 61600,
+        "change_percent_yesterday": 3.99
     },
     "charts": {
         "line_area_chart": [
@@ -15304,6 +15304,10 @@
             {
                 "time": "2026-04-07",
                 "value": 1605000
+            },
+            {
+                "time": "2026-04-08",
+                "value": 1543400
             }
         ],
         "candlestick_chart": [
@@ -42067,11 +42071,26 @@
                 "high": 1605000,
                 "low": 1605000,
                 "close": 1605000
+            },
+            {
+                "time": "2026-04-08",
+                "open": 1569900,
+                "high": 1570200,
+                "low": 1533100,
+                "close": 1543400
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-04-08",
+                "Persian Date": "1405/01/19",
+                "Open Price": 1569900,
+                "Low Price": 1533100,
+                "High Price": 1570200,
+                "Close Price": 1543400
+            },
             {
                 "Gregorian Date": "2026-04-07",
                 "Persian Date": "1405/01/18",
@@ -42141,14 +42160,6 @@
                 "Persian Date": "1405/01/08",
                 "Open Price": 1585700,
                 "Low Price": 1585400,
-                "High Price": 1585800,
-                "Close Price": 1585800
-            },
-            {
-                "Gregorian Date": "2026-03-26",
-                "Persian Date": "1405/01/06",
-                "Open Price": 1577500,
-                "Low Price": 1577200,
                 "High Price": 1585800,
                 "Close Price": 1585800
             }
