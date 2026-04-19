@@ -1975,5 +1975,20 @@
         "ci_68": null,
         "ci_95": null,
         "trend": "stable"
+    },
+    {
+        "date": "2026-04-19",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1511313,
+        "ci_68": [
+            1481282,
+            1541344
+        ],
+        "ci_95": [
+            1452452,
+            1570174
+        ],
+        "trend": "up"
     }
 ]
