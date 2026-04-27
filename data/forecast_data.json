@@ -2083,5 +2083,20 @@
             1540297
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-04-27",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1485486,
+        "ci_68": [
+            1455455,
+            1515517
+        ],
+        "ci_95": [
+            1426625,
+            1544347
+        ],
+        "trend": "down"
     }
 ]
