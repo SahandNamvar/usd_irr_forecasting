@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3840,
-        "last_update": "2026-04-27",
-        "last_close_price": 1588900,
+        "total_records": 3845,
+        "last_update": "2026-05-03",
+        "last_close_price": 1864100,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 23950,
-        "change_percent_yesterday": 1.53
+        "change_amount_yesterday": 40000,
+        "change_percent_yesterday": 2.19
     },
     "charts": {
         "line_area_chart": [
@@ -15372,6 +15372,26 @@
             {
                 "time": "2026-04-27",
                 "value": 1588900
+            },
+            {
+                "time": "2026-04-28",
+                "value": 1658900
+            },
+            {
+                "time": "2026-04-29",
+                "value": 1753900
+            },
+            {
+                "time": "2026-04-30",
+                "value": 1779100
+            },
+            {
+                "time": "2026-05-02",
+                "value": 1824100
+            },
+            {
+                "time": "2026-05-03",
+                "value": 1864100
             }
         ],
         "candlestick_chart": [
@@ -42254,11 +42274,86 @@
                 "high": 1589200,
                 "low": 1563800,
                 "close": 1588900
+            },
+            {
+                "time": "2026-04-28",
+                "open": 1594200,
+                "high": 1669200,
+                "low": 1593800,
+                "close": 1658900
+            },
+            {
+                "time": "2026-04-29",
+                "open": 1739200,
+                "high": 1819200,
+                "low": 1733800,
+                "close": 1753900
+            },
+            {
+                "time": "2026-04-30",
+                "open": 1769150,
+                "high": 1789200,
+                "low": 1768800,
+                "close": 1779100
+            },
+            {
+                "time": "2026-05-02",
+                "open": 1808900,
+                "high": 1839200,
+                "low": 1808800,
+                "close": 1824100
+            },
+            {
+                "time": "2026-05-03",
+                "open": 1869200,
+                "high": 1874200,
+                "low": 1863800,
+                "close": 1864100
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-05-03",
+                "Persian Date": "1405/02/13",
+                "Open Price": 1869200,
+                "Low Price": 1863800,
+                "High Price": 1874200,
+                "Close Price": 1864100
+            },
+            {
+                "Gregorian Date": "2026-05-02",
+                "Persian Date": "1405/02/12",
+                "Open Price": 1808900,
+                "Low Price": 1808800,
+                "High Price": 1839200,
+                "Close Price": 1824100
+            },
+            {
+                "Gregorian Date": "2026-04-30",
+                "Persian Date": "1405/02/10",
+                "Open Price": 1769150,
+                "Low Price": 1768800,
+                "High Price": 1789200,
+                "Close Price": 1779100
+            },
+            {
+                "Gregorian Date": "2026-04-29",
+                "Persian Date": "1405/02/09",
+                "Open Price": 1739200,
+                "Low Price": 1733800,
+                "High Price": 1819200,
+                "Close Price": 1753900
+            },
+            {
+                "Gregorian Date": "2026-04-28",
+                "Persian Date": "1405/02/08",
+                "Open Price": 1594200,
+                "Low Price": 1593800,
+                "High Price": 1669200,
+                "Close Price": 1658900
+            },
             {
                 "Gregorian Date": "2026-04-27",
                 "Persian Date": "1405/02/07",
@@ -42298,46 +42393,6 @@
                 "Low Price": 1524800,
                 "High Price": 1560200,
                 "Close Price": 1552200
-            },
-            {
-                "Gregorian Date": "2026-04-21",
-                "Persian Date": "1405/02/01",
-                "Open Price": 1512200,
-                "Low Price": 1511800,
-                "High Price": 1525200,
-                "Close Price": 1525200
-            },
-            {
-                "Gregorian Date": "2026-04-20",
-                "Persian Date": "1405/01/31",
-                "Open Price": 1490000,
-                "Low Price": 1489800,
-                "High Price": 1535200,
-                "Close Price": 1511900
-            },
-            {
-                "Gregorian Date": "2026-04-19",
-                "Persian Date": "2026-04-19",
-                "Open Price": 1476400,
-                "Low Price": 1476400,
-                "High Price": 1538200,
-                "Close Price": 1490200
-            },
-            {
-                "Gregorian Date": "2026-04-18",
-                "Persian Date": "1405/01/29",
-                "Open Price": 1520900,
-                "Low Price": 1471800,
-                "High Price": 1521200,
-                "Close Price": 1476800
-            },
-            {
-                "Gregorian Date": "2026-04-16",
-                "Persian Date": "1405/01/27",
-                "Open Price": 1525200,
-                "Low Price": 1520800,
-                "High Price": 1525200,
-                "Close Price": 1521200
             }
         ]
     }
