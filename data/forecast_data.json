@@ -2419,5 +2419,20 @@
             1822395
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-05-21",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1752855,
+        "ci_68": [
+            1722824,
+            1782886
+        ],
+        "ci_95": [
+            1693994,
+            1811716
+        ],
+        "trend": "down"
     }
 ]
