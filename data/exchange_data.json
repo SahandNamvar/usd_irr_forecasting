@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3867,
-        "last_update": "2026-05-30",
-        "last_close_price": 1704900,
+        "total_records": 3869,
+        "last_update": "2026-06-01",
+        "last_close_price": 1761800,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 40100,
-        "change_percent_yesterday": 2.35
+        "change_amount_yesterday": 56950,
+        "change_percent_yesterday": 3.34
     },
     "charts": {
         "line_area_chart": [
@@ -15480,6 +15480,14 @@
             {
                 "time": "2026-05-30",
                 "value": 1704900
+            },
+            {
+                "time": "2026-05-31",
+                "value": 1704850
+            },
+            {
+                "time": "2026-06-01",
+                "value": 1761800
             }
         ],
         "candlestick_chart": [
@@ -42551,11 +42559,41 @@
                 "high": 1740200,
                 "low": 1699800,
                 "close": 1704900
+            },
+            {
+                "time": "2026-05-31",
+                "open": 1709900,
+                "high": 1710200,
+                "low": 1699800,
+                "close": 1704850
+            },
+            {
+                "time": "2026-06-01",
+                "open": 1715150,
+                "high": 1770200,
+                "low": 1714800,
+                "close": 1761800
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-06-01",
+                "Persian Date": "1405/03/11",
+                "Open Price": 1715150,
+                "Low Price": 1714800,
+                "High Price": 1770200,
+                "Close Price": 1761800
+            },
+            {
+                "Gregorian Date": "2026-05-31",
+                "Persian Date": "1405/03/10",
+                "Open Price": 1709900,
+                "Low Price": 1699800,
+                "High Price": 1710200,
+                "Close Price": 1704850
+            },
             {
                 "Gregorian Date": "2026-05-30",
                 "Persian Date": "1405/03/09",
@@ -42619,22 +42657,6 @@
                 "Low Price": 1783800,
                 "High Price": 1824200,
                 "Close Price": 1799100
-            },
-            {
-                "Gregorian Date": "2026-05-19",
-                "Persian Date": "1405/02/29",
-                "Open Price": 1794200,
-                "Low Price": 1771850,
-                "High Price": 1794200,
-                "Close Price": 1784000
-            },
-            {
-                "Gregorian Date": "2026-05-18",
-                "Persian Date": "1405/02/28",
-                "Open Price": 1809200,
-                "Low Price": 1788800,
-                "High Price": 1809200,
-                "Close Price": 1799200
             }
         ]
     }
