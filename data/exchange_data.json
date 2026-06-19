@@ -1,15 +1,15 @@
 {
     "meta": {
-        "total_records": 3882,
-        "last_update": "2026-06-17",
-        "last_close_price": 1595000,
+        "total_records": 3883,
+        "last_update": "2026-06-18",
+        "last_close_price": 1565000,
         "lowest_close_price": 13350,
         "data_range": [
             "2011",
             "2026"
         ],
-        "change_amount_yesterday": 45000,
-        "change_percent_yesterday": 2.9
+        "change_amount_yesterday": 30000,
+        "change_percent_yesterday": 1.92
     },
     "charts": {
         "line_area_chart": [
@@ -15540,6 +15540,10 @@
             {
                 "time": "2026-06-17",
                 "value": 1595000
+            },
+            {
+                "time": "2026-06-18",
+                "value": 1565000
             }
         ],
         "candlestick_chart": [
@@ -42716,11 +42720,26 @@
                 "high": 1610150,
                 "low": 1534800,
                 "close": 1595000
+            },
+            {
+                "time": "2026-06-18",
+                "open": 1564850,
+                "high": 1575200,
+                "low": 1564800,
+                "close": 1565000
             }
         ]
     },
     "tables": {
         "recent_rates": [
+            {
+                "Gregorian Date": "2026-06-18",
+                "Persian Date": "1405/03/28",
+                "Open Price": 1564850,
+                "Low Price": 1564800,
+                "High Price": 1575200,
+                "Close Price": 1565000
+            },
             {
                 "Gregorian Date": "2026-06-17",
                 "Persian Date": "1405/03/27",
@@ -42792,14 +42811,6 @@
                 "Low Price": 1772800,
                 "High Price": 1788200,
                 "Close Price": 1774000
-            },
-            {
-                "Gregorian Date": "2026-06-07",
-                "Persian Date": "1405/03/17",
-                "Open Price": 1747950,
-                "Low Price": 1747800,
-                "High Price": 1780200,
-                "Close Price": 1780100
             }
         ]
     }
