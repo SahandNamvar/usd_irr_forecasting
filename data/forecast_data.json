@@ -3001,5 +3001,20 @@
             1633452
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-07-02",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1592189,
+        "ci_68": [
+            1562158,
+            1622220
+        ],
+        "ci_95": [
+            1533328,
+            1651050
+        ],
+        "trend": "down"
     }
 ]
