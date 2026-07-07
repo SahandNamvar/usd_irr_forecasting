@@ -3058,5 +3058,20 @@
             1690843
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-07-07",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 1651358,
+        "ci_68": [
+            1621327,
+            1681389
+        ],
+        "ci_95": [
+            1592497,
+            1710219
+        ],
+        "trend": "down"
     }
 ]
