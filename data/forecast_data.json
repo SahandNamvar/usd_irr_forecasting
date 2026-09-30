@@ -4195,5 +4195,20 @@
             2280906
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-09-30",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 2241323,
+        "ci_68": [
+            2211292,
+            2271354
+        ],
+        "ci_95": [
+            2182462,
+            2300184
+        ],
+        "trend": "down"
     }
 ]
