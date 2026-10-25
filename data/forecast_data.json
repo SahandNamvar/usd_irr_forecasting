@@ -4498,5 +4498,20 @@
         "ci_68": null,
         "ci_95": null,
         "trend": "stable"
+    },
+    {
+        "date": "2026-10-25",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 2507168,
+        "ci_68": [
+            2477137,
+            2537199
+        ],
+        "ci_95": [
+            2448307,
+            2566029
+        ],
+        "trend": "down"
     }
 ]
