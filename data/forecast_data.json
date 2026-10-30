@@ -4558,5 +4558,14 @@
             2581169
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-10-30",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
