@@ -4615,5 +4615,20 @@
             2596780
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-11-04",
+        "weekend": false,
+        "status": "market open",
+        "forecast": 2542014,
+        "ci_68": [
+            2511983,
+            2572045
+        ],
+        "ci_95": [
+            2483153,
+            2600875
+        ],
+        "trend": "down"
     }
 ]
