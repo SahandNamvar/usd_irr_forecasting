@@ -4645,5 +4645,14 @@
             2601862
         ],
         "trend": "down"
+    },
+    {
+        "date": "2026-11-06",
+        "weekend": true,
+        "status": "market closed",
+        "forecast": null,
+        "ci_68": null,
+        "ci_95": null,
+        "trend": "stable"
     }
 ]
